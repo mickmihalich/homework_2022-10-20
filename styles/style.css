@@ -1,6 +1,6 @@
 .user_card{
 	color: purple;
-	font-family: system-ui;
+	font-family: sans-serif;
 	width: 400px;
 	border: solid 1px purple;
 	border-radius: 10px;
@@ -17,10 +17,12 @@
 	background-image: url(../images/man.png);
 	background-size: cover;
 	background-color: #B24BF3;
+	transition: background-image 0.15s;
 }
 
 .user_card img:hover{
 	background-image: url(../images/dof.png);
+	transition: background-image 0.15s;
 	cursor: wait;
 }
 
