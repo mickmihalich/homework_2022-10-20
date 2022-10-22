@@ -17,13 +17,13 @@
 	background-image: url(../images/man.png);
 	background-size: cover;
 	background-color: #B24BF3;
-	transition: background-image 0.15s;
+	transition: background-image 0.05s;
 }
 
 .user_card img:hover{
 	background-image: url(../images/dof.png);
-	transition: background-image 0.15s;
-	cursor: wait;
+	transition: background-image 0.05s;
+	cursor: grab;
 }
 
 .user_card h1{
