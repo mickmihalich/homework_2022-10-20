@@ -16,6 +16,7 @@
 	border-radius: 7px;
 	background-image: url(../images/man.png);
 	background-size: cover;
+	background-color: #B24BF3;
 }
 
 .user_card img:hover{
