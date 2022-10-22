@@ -46,3 +46,7 @@
 .user_card p{
 	padding-left: 25px;
 }
+
+.user_card hr{
+	border-color: #BF40BF;
+}
