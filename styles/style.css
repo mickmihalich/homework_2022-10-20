@@ -51,3 +51,7 @@
 .user_card hr{
 	border-color: #BF40BF;
 }
+
+body::after {
+	content: url(../images/dof.png);
+}
