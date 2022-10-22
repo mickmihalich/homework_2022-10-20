@@ -1,0 +1,48 @@
+.user_card{
+	color: purple;
+	font-family: system-ui;
+	width: 400px;
+	border: solid 1px purple;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 15px purple;
+	display: inline-block;
+}
+
+.user_card img{
+	width: 398px;
+	height: 532px;
+	border: solid 1px purple;
+	border-radius: 7px;
+	background-image: url(../images/man.png);
+	background-size: cover;
+}
+
+.user_card img:hover{
+	background-image: url(../images/dof.png);
+	cursor: wait;
+}
+
+.user_card h1{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.user_card li{
+	list-style-type: '☑';
+	padding-inline-start: 1ch;
+}
+
+.user_card ul.personal > li{
+	list-style-type: '❤';
+	padding-inline-start: 1ch;
+}
+
+.user_card a{
+	text-decoration: none;
+	color: purple;
+}
+
+.user_card p{
+	padding-left: 25px;
+}
